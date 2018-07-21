@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Uname is admin]]>
+    </line>
+    <line>
+      <![CDATA[pwd is manager]]>
+    </line>
+    <line>
+      <![CDATA[Homepage title is actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[element is present]]>
+    </line>
+    <line>
+      <![CDATA[element is present]]>
+    </line>
+    <line>
+      <![CDATA[Version is: actiTIME 2014 Pro]]>
+    </line>
+    <line>
+      <![CDATA[element is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18359" started-at="2018-06-15T08:59:51Z" finished-at="2018-06-15T09:00:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18359" started-at="2018-06-15T08:59:51Z" finished-at="2018-06-15T09:00:10Z">
+      <class name="scripts.Validversion">
+        <test-method status="PASS" signature="openAppln()[pri:0, instance:scripts.Validversion@8bd1b6a]" name="openAppln" is-config="true" duration-ms="10548" started-at="2018-06-15T08:59:51Z" finished-at="2018-06-15T09:00:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Uname is admin]]>
+            </line>
+            <line>
+              <![CDATA[pwd is manager]]>
+            </line>
+            <line>
+              <![CDATA[Homepage title is actiTIME - Enter Time-Track]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAppln -->
+        <test-method status="PASS" signature="checkversion()[pri:0, instance:scripts.Validversion@8bd1b6a]" name="checkversion" duration-ms="6660" started-at="2018-06-15T09:00:02Z" finished-at="2018-06-15T09:00:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[element is present]]>
+            </line>
+            <line>
+              <![CDATA[element is present]]>
+            </line>
+            <line>
+              <![CDATA[Version is: actiTIME 2014 Pro]]>
+            </line>
+            <line>
+              <![CDATA[element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkversion -->
+        <test-method status="PASS" signature="closeAppln()[pri:0, instance:scripts.Validversion@8bd1b6a]" name="closeAppln" is-config="true" duration-ms="1102" started-at="2018-06-15T09:00:09Z" finished-at="2018-06-15T09:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppln -->
+      </class> <!-- scripts.Validversion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
